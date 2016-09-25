@@ -17,11 +17,11 @@ for word1 in textList:
 	if len(word1)>5:
 		sampleWordList.append(word1)
 print ("================sampleWordList==================")
-print sampleWordList
+print (sampleWordList)
 print ("================================================")
 
 while True:
-	userWord=raw_input("Please input a word > 5 letters:")
+	userWord=input("Please input a word > 5 letters:")
 	if len(userWord)>5:
 		break
 	print("INPUT A WORD > 5 LETTERS!!!")
